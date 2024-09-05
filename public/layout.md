@@ -1,0 +1,5 @@
+- Minimalistic
+- Apple-like
+- Glass-morphism
+- Dark with white sharp glow
+- snappy Animations
