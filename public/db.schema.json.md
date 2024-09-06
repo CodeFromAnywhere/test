@@ -1,3 +1,5 @@
+JSON Schema:
+
 - User model
 - Projects model 
 - Content model {prompt,code,dependencies,slug}

@@ -1,5 +1,3 @@
----
-dependencies: data.md
----
+See db.md
 
-Endpoint that signs up.
+Endpoint that signs up and inserts user into the db
