@@ -1,1 +1,3 @@
-Page to sign up
+Page to sign up (uses signup endpoint)
+
+Uses layout.js

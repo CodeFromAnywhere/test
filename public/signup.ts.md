@@ -1,5 +1,5 @@
 ---
-dependencies: signup.html, data.md
+dependencies: data.md
 ---
 
 Endpoint that signs up.

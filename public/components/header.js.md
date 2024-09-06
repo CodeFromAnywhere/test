@@ -1,0 +1,1 @@
+This is a header JS component that can be embedded on pages.
