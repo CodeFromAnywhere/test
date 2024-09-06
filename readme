@@ -5,3 +5,15 @@ This seems a good set up:
 - Workspace: https://github.dev/[owner]/[repo]
 - View your results: https://[repo].[owner].irfc.cloud/
 - Github Agents: https://github.actionschema.com/[owner]/[repo]/[branch]/[ep]
+
+In other words:
+
+- The state of your english code is in git, which can be near instant deploy-time.
+- This allows very easy cloud code editing using the online VSCode, but also offline is fine.
+- The resulting code is accessible using a fast reader api, and generations thereof are lazily generated
+
+Insight:
+
+- If we can keep the code in the repo, it might be a little slower, but it will allow much more sense of ownership and overview. Whenever you commit your english, code generation can be triggered based on changes. This can be opt-in though because it's also annoying due to conflicts. Instead, it can also live in another repo, or simply in the vector store.
+- By using github as source of truth for English and also optional code, we save lot of time having to build that frontend.
+- By using a vector-store for storage of the generated files, we can easily build a search engine over it, and the website will generally become fast.
